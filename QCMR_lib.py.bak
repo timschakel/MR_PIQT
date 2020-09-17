@@ -1836,8 +1836,6 @@ class PiQT_QC:
             cs.scanID = 'QA2'
         elif 'QA3' in value:
             cs.scanID = 'QA3'
-        elif 'MRL_ACPC_T' in value:
-            cs.scanID = 'MRLSNR'
         else:
             cs.scanID = lit.stUnknown
 

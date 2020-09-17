@@ -39,8 +39,8 @@ __author__ = 'aschilham'
 import os
 
 # for local prototyping, add path
-#import sys
-#sys.path.insert(0, 'C:/Users/Tim/github/wadqc')
+import sys
+sys.path.insert(0, 'C:/Users/Tim/github/wadqc')
 
 # this will fail unless wad_qc is already installed
 from wad_qc.module import pyWADinput
